@@ -1,0 +1,22 @@
+Supplier row ID,Original supplier SKU,Supplier name,Matched store SKU,Matched store product,Current store price,Proposed supplier price,Price difference,Price change direction,Primary status,Other issues,SKU cleaning note,Reason,Action needed
+1,woo-hoodie-with-logo,Hoodie with Logo,woo-hoodie-with-logo,Hoodie with Logo,45.0,45.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+2,woo-tshirt,T-Shirt,woo-tshirt,T-Shirt,18.0,20.0,2.0,increase,exact_match,,,SKU matches one store item and prices are usable.,Approve or reject the proposed price change.
+3,woo-beanie,Beanie,woo-beanie,Beanie,20.0,18.0,-2.0,decrease,exact_match,,,SKU matches one store item and prices are usable.,Approve or reject the proposed price change.
+4, woo-belt ,Belt,woo-belt,Belt,65.0,65.0,0.0,unchanged,exact_match,,Leading/trailing whitespace removed before matching,SKU matches one store item and prices are usable.,No price change needed.
+5,woo-cap,Cap,woo-cap,Cap,18.0,,,,missing_or_invalid_price,,,A required price is missing or invalid.,Confirm the missing or invalid price.
+6,woo-sunglasses,Sunglasses,woo-sunglasses,Sunglasses,90.0,90.0,,,duplicate_supplier_sku,,,SKU appears more than once in the supplier file.,Confirm which supplier entry to use.
+7,woo-hoodie-with-pocket,Hoodie with Pocket,woo-hoodie-with-pocket,Hoodie with Pocket,45.0,45.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+8,woo-hoodie-with-zipper,Hoodie with Zipper,woo-hoodie-with-zipper,Hoodie with Zipper,45.0,45.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+9,woo-long-sleeve-tee,Long Sleeve Tee,woo-long-sleeve-tee,Long Sleeve Tee,25.0,25.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+10,woo-polo,Polo,woo-polo,Polo,20.0,20.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+11,woo-vneck-tee-red,V-Neck T-Shirt - Red,woo-vneck-tee-red,V-Neck T-Shirt - Red,20.0,22.0,2.0,increase,exact_match,,,SKU matches one store item and prices are usable.,Approve or reject the proposed price change.
+12,woo-vneck-tee-green,V-Neck T-Shirt - Green,woo-vneck-tee-green,V-Neck T-Shirt - Green,20.0,20.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+13,woo-vneck-tee-blue,V-Neck T-Shirt - Blue,woo-vneck-tee-blue,V-Neck T-Shirt - Blue,15.0,15.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+14,woo-hoodie-red,"Hoodie - Red, No",woo-hoodie-red,"Hoodie - Red, No",45.0,45.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+15,woo-hoodie-green,"Hoodie - Green, No",woo-hoodie-green,"Hoodie - Green, No",45.0,42.0,-3.0,decrease,exact_match,,,SKU matches one store item and prices are usable.,Approve or reject the proposed price change.
+16,woo-hoodie-blue,"Hoodie - Blue, No",woo-hoodie-blue,"Hoodie - Blue, No",45.0,45.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+17,Woo-tshirt-logo,T-Shirt with Logo,Woo-tshirt-logo,T-Shirt with Logo,18.0,18.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+18,Woo-beanie-logo,Beanie with Logo,Woo-beanie-logo,Beanie with Logo,20.0,20.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+19,woo-hoodie-blue-logo,"Hoodie - Blue, Yes",woo-hoodie-blue-logo,"Hoodie - Blue, Yes",45.0,45.0,0.0,unchanged,exact_match,,,SKU matches one store item and prices are usable.,No price change needed.
+20,woo-sunglasses,Sunglasses,woo-sunglasses,Sunglasses,90.0,95.0,,,duplicate_supplier_sku,,,SKU appears more than once in the supplier file.,Confirm which supplier entry to use.
+21,sim-new-shoe-brush,Simulated Shoe Brush,,,,12.0,,,missing_store_sku,,,SKU was not found in the included store products.,Check the SKU and whether the item belongs in this review.

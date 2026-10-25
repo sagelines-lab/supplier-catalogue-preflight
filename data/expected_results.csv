@@ -1,0 +1,22 @@
+supplier_row_id,expected_status,test_case,expected_note
+1,exact_match,normal_exact_match,Derived from store ID 46; original SKU and selling price unchanged.
+2,exact_match,price_change,Derived from store ID 47; original SKU and selling price unchanged. Proposed selling price changed from 18 to 20.
+3,exact_match,price_change,Derived from store ID 48; original SKU and selling price unchanged. Proposed selling price changed from 20 to 18.
+4,exact_match,whitespace_sku,Store ID 58: one leading and trailing space added; price 65 unchanged. Expect a cleaning note.
+5,missing_or_invalid_price,invalid_price,Store ID 60: proposed price deliberately left blank; SKU unchanged.
+6,duplicate_supplier_sku,duplicate_supplier_sku,Store ID 62: original price 90 retained; SKU repeated in supplier row 20 at price 95.
+7,exact_match,normal_exact_match,Derived from store ID 64; original SKU and selling price unchanged.
+8,exact_match,normal_exact_match,Derived from store ID 66; original SKU and selling price unchanged.
+9,exact_match,normal_exact_match,Derived from store ID 68; original SKU and selling price unchanged.
+10,exact_match,normal_exact_match,Derived from store ID 70; original SKU and selling price unchanged.
+11,exact_match,price_change,Derived from store ID 76; original SKU and selling price unchanged. Proposed selling price changed from 20 to 22.
+12,exact_match,normal_exact_match,Derived from store ID 77; original SKU and selling price unchanged.
+13,exact_match,normal_exact_match,Derived from store ID 78; original SKU and selling price unchanged.
+14,exact_match,normal_exact_match,Derived from store ID 79; original SKU and selling price unchanged.
+15,exact_match,price_change,Derived from store ID 80; original SKU and selling price unchanged. Proposed selling price changed from 45 to 42.
+16,exact_match,normal_exact_match,Derived from store ID 81; original SKU and selling price unchanged.
+17,exact_match,normal_exact_match,Derived from store ID 83; original SKU and selling price unchanged.
+18,exact_match,normal_exact_match,Derived from store ID 85; original SKU and selling price unchanged.
+19,exact_match,normal_exact_match,Derived from store ID 90; original SKU and selling price unchanged.
+20,duplicate_supplier_sku,duplicate_supplier_sku,"Store ID 62: extra sunglasses row at 95, conflicting with supplier row 6 at 90."
+21,missing_store_sku,missing_store_sku,Invented item with no source store row; unique absent SKU and valid proposed price 12.

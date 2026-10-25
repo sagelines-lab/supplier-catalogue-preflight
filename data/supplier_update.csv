@@ -1,0 +1,22 @@
+supplier_row_id,supplier_sku,supplier_name,proposed_price
+1,woo-hoodie-with-logo,Hoodie with Logo,45
+2,woo-tshirt,T-Shirt,20
+3,woo-beanie,Beanie,18
+4, woo-belt ,Belt,65
+5,woo-cap,Cap,
+6,woo-sunglasses,Sunglasses,90
+7,woo-hoodie-with-pocket,Hoodie with Pocket,45
+8,woo-hoodie-with-zipper,Hoodie with Zipper,45
+9,woo-long-sleeve-tee,Long Sleeve Tee,25
+10,woo-polo,Polo,20
+11,woo-vneck-tee-red,V-Neck T-Shirt - Red,22
+12,woo-vneck-tee-green,V-Neck T-Shirt - Green,20
+13,woo-vneck-tee-blue,V-Neck T-Shirt - Blue,15
+14,woo-hoodie-red,"Hoodie - Red, No",45
+15,woo-hoodie-green,"Hoodie - Green, No",42
+16,woo-hoodie-blue,"Hoodie - Blue, No",45
+17,Woo-tshirt-logo,T-Shirt with Logo,18
+18,Woo-beanie-logo,Beanie with Logo,20
+19,woo-hoodie-blue-logo,"Hoodie - Blue, Yes",45
+20,woo-sunglasses,Sunglasses,95
+21,sim-new-shoe-brush,Simulated Shoe Brush,12
