@@ -4,6 +4,16 @@ I compared a simulated supplier update with a WooCommerce sample
 catalogue so a store operator can review prices and problem rows.
 This is a portfolio exercise, not paid client work.
 
+## Workbook preview
+
+Summary of the supplier review:
+
+![Supplier review summary](images/summary.png)
+
+Product matches, proposed prices and issues:
+
+![Supplier review details](images/review.png)
+
 ## Data source
 
 - Dataset: official WooCommerce sample product catalogue.
@@ -28,6 +38,7 @@ investigation. Prices use sample price units, and no store was updated.
 - `project.ipynb`: inspection, simulated data, matching, QA and exports.
 - `data/`: original catalogue, simulated supplier file and expected results.
 - `outputs/`: Excel review workbook, review CSV and written summary.
+- `images/`: screenshots of the Summary and Review sheets.
 - `PROJECT_BRIEF.md`: the agreed scope and rules.
 - `CASE_STUDY.md`: a short explanation and example results.
 
